@@ -9,7 +9,7 @@ const App = () => (
       </div>
     </div>
     <Routes>
-      <Route path='/Home' element={<Hero></Hero>}></Route>
+      <Route path='/' element={<Hero></Hero>}></Route>
     </Routes>
     <div className={`bg-primary relative z-40 ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
